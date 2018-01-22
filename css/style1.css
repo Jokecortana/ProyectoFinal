@@ -1,0 +1,211 @@
+body{
+	margin: 0;
+}
+
+.titulo-principal{
+	font-family: script mt bold;
+	color:white;
+	background:black;
+	padding:1%;
+	font-size: 20px;
+
+}
+
+.slog{
+	text-align: right;
+
+}
+
+.menu {
+	text-align: left;
+	font-size: 25px;
+	margin-top: 2%;
+	font-family: constantia;
+
+
+	
+}
+
+
+.menu a{
+	text-decoration: none;
+	color: black;
+	
+
+}
+
+ul{
+	list-style: none;
+	
+
+}
+
+.activo{
+
+}
+
+
+.runway{
+	background:grey;
+	padding: 20%;
+	margin-left: 13%;
+	margin-top: -240px;
+	font-family: ar julian;
+
+
+	
+
+}
+
+.runway h3{
+	color:black;
+	font-size:35px;
+	text-align:center;
+	margin-top:-250px;
+	margin-left: -200px;
+
+
+
+}
+
+
+.Men h3{
+	color:black;
+	font-size:50px;
+	text-align:left;
+	margin-top:-250px;
+	margin-left: -200px;
+	font-family: constantia;
+
+}
+
+.Men{
+	background:grey;
+	padding: 20%;
+	margin-left: 13%;
+	margin-top: -240px;
+	font-family: ar julian;
+	
+
+}
+
+.shoe{
+	text-align: center;
+	font-family: ar julian;
+	font-size: 27px;
+	color:purple;
+
+
+}
+
+.hood{
+	text-align: center;
+	font-family: ar julian;
+	font-size: 27px;
+	color:yellow;
+
+
+}
+
+
+.jn{
+	text-align: center;
+	font-family: ar julian;
+	font-size: 27px;
+	color:green;
+
+
+}
+
+
+.Wmn{
+	background:grey;
+	padding: 20%;
+	margin-left: 13%;
+	margin-top: -240px;
+	font-family: ar julian;
+}
+
+	.Wmn h3{
+	color:black;
+	font-size:50px;
+	text-align:left;
+	margin-top:-250px;
+	margin-left: -200px;
+	font-family: constantia;
+
+}
+	
+	.wms{
+	text-align: center;
+	font-family: ar julian;
+	font-size: 27px;
+	color:yellow;
+}
+
+.shoewm{
+	text-align: center;
+	font-family: ar julian;
+	font-size: 27px;
+	color:purple;
+
+
+}
+
+
+
+.jnw{
+	text-align: center;
+	font-family: ar julian;
+	font-size: 27px;
+	color:green;
+}
+	
+
+.footer{
+	background:#3E2227;
+	padding: 1%;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+
+}
+
+.footer li{
+	display: inline;
+	margin:5%;
+}
+ .footer a{
+ 	color:black;
+ 	text-decoration: none;
+ 	font-family: gotham black;
+ }
+
+li.activo a{
+	background:purple;
+}
+.menu li:hover a{
+	color:red;
+}
+
+
+@media only screen and (max-width: 768px) {
+     .menu{width: 100%;      padding: 15px;
+}
+    .Wmn {width: 100%;      padding: 15px;
+}
+.Men {width: 100%;      padding: 15px;
+}
+.runway{width: 100%;      padding: 15px;
+}
+}
+}
+
+
+/* Para escritorio: */
+@media only screen and (min-width: 768px) {
+    .menu {width: 24%; float: left; padding: 5px;}
+    .Wmn {width: 74%; float: left; padding: 5px;}
+    .Men {width: 74%; float: left; padding: 5px;}
+    .runway {width: 74%; float: left; padding: 5px;}
+}
